@@ -1,0 +1,7 @@
+#Part 3 Ex 1 c
+str = raw_input("String:")
+i = 0
+lenstr = len(str)
+for i in xrange(lenstr):
+	asc = ord(str[i])
+	print (str[i], asc)
