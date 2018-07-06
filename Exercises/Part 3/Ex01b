@@ -1,0 +1,10 @@
+#Part 3 Ex 1 b
+str = raw_input("String:")
+lenstr = len(str)
+asc=[ord(i) for i in str]
+print asc
+dsa=0
+for i in xrange(lenstr):
+	asd = asc[i]
+	dsa += int(asd)
+print dsa
